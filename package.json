@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/abautista3712/nodeExpressHandlebars#readme",
   "dependencies": {
+    "bulma": "^0.8.2",
     "express": "^4.17.1",
     "express-handlebars": "^4.0.2",
     "mysql": "^2.18.1"
