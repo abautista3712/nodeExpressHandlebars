@@ -1,8 +1,12 @@
-<img src="../assets/images/burger.png" alt="pixelBurger">
-<h1>Eat-Da-Burger!</h1>
-<div class="columns">
-    <div class="column">
-        <h2>Burgers to eat:</h2>
+<div class="columns is-multiline">
+    <div class="column is-full has-text-centered">
+        <img src="../assets/images/burger.png" alt="pixelBurger">
+    </div>
+    <div class="column is-full has-text-centered">
+        <h1 class="title is-1">Eat-Da-Burger!</h1>
+    </div>
+    <div id="burgersToEat" class="column is-5 is-offset-1">
+        <h2 class="subtitle is-3 has-text-centered">Burgers to eat:</h2>
 
         <ul>
             {{#each burgers}}
@@ -12,8 +16,8 @@
             {{/each}}
         </ul>
     </div>
-    <div class="column">
-        <h2>Burgers to exercise away:</h2>
+    <div class="column is-5">
+        <h2 class="subtitle is-3 has-text-centered">Burgers to exercise away:</h2>
 
         <ul>
             {{#each burgers}}
@@ -24,19 +28,31 @@
         </ul>
     </div>
 </div>
-<h2>Order a burger!</h2>
-<form class="create-form">
-
-    <div class="form-group">
-        <label for="ca">Burger Name:</label>
-        <input type="text" id="ca" name="name">
+<div class="columns is-multiline">
+    <div id="orderBurgerTitle" class="column is-4 is-offset-4">
+        <h2 class="subtitle is-2 has-text-centered">Order a burger!</h2>
     </div>
-
-    <div class="form-group">
-        <label for="sleepy">Did you already eat this burger?</label><br>
-        <input type="radio" name="sleepy" value="1" checked> Yes!<br>
-        <input type="radio" name="sleepy" value="0"> Not yet!
+    <div class="column is-4 is-offset-4">
+        <form class="create-form">
+            <div id="questionWhatBurger" class="form-group">
+                <h4 class="has-text-weight-bold"><label for="ca">(1) What burger would you like to
+                        add?</label></h4>
+                <input type="text" id="burgerName" name="name" placeholder="Enter your burger name here">
+            </div>
+            <div class="form-group">
+                <div id="questionDevoured" class="column is-narrow">
+                    <h4 class="has-text-weight-bold"><label for="devoured">(2) Did you already eat this
+                            burger?</label><br>
+                    </h4>
+                </div>
+                <div id="answers" class="column is-narrow">
+                    <input type="radio" name="devoured" value="0" checked> Not yet!<br>
+                    <input type="radio" name="devoured" value="1"> Yes! It was delicious!
+                </div>
+            </div>
+        </form>
     </div>
-
-    <button type="submit">Order Up!</button>
-</form>
+    <div id="orderBurgerButtonWrapper" class="column has-text-centered is-4 is-offset-4">
+        <button id="orderBurgerButton" type="submit">Order Up!</button>
+    </div>
+</div>
