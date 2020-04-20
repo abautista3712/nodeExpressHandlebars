@@ -4,7 +4,7 @@ Created by abautista3712 | https://api.github.com/users/abautista3712
 
 ![npm](https://img.shields.io/npm/v/fs) ![npm](https://img.shields.io/npm/v/inquirer) ![npm](https://img.shields.io/npm/v/axios)
 
-![nodeExpressHandlebarsScreenshot](./assets/images/nodeExpressHandlebarsScreenshot.PNG?raw=true "Eat-Da-Burger")
+![Eat-Da-Burger](./public/assets/images/nodeExpressHandlebarsScreenshot.PNG?raw=true "Eat-Da-Burger")
 
 ## Description
 
