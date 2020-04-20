@@ -4,6 +4,7 @@
   "description": "nodeexpresshandlebars is a repository containing the Eat-Da-Burger app which keeps a list of the user-inputted burgers and keeps a track of which of those burgers the user has marked as being devoured. This project utilizes mySQL as the backend server and node express-handlebars to serve the html. ",
   "main": "burger.js",
   "scripts": {
+    "start": "node server.js"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
