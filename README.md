@@ -31,7 +31,7 @@ npm i
 
 ## Usage
 
-Accessible via: undefined
+Accessible via: https://github.com/abautista3712/nodeExpressHandlebars
 
 ## License
 
