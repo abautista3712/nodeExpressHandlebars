@@ -9,6 +9,13 @@ app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+app.use(timeout(15000));
+app.use(haltOnTimedout);
+
+function haltOnTimedout(req, res, next) {
+  if (!req.timedout) next();
+}
+
 var exphbs = require("express-handlebars");
 
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
