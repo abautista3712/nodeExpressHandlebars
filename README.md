@@ -31,7 +31,7 @@ npm i
 
 ## Usage
 
-Accessible via: https://github.com/abautista3712/nodeExpressHandlebars
+Accessible via: https://mysterious-wildwood-12100.herokuapp.com/
 
 ## License
 
