@@ -49,4 +49,4 @@ No tests were explicitly written to run tests for this application.
 
 <img src="https://avatars1.githubusercontent.com/u/58578177?v=4" alt="avatar" style="border-radius: 16px" width="30" />
     
-If you have any questions about this repo, open an issue or contact Abelard Bautista directly at null.
+If you have any questions about this repo, open an issue or contact Abelard Bautista directly at abelardbautista@gmail.com
