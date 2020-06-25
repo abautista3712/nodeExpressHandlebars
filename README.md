@@ -1,6 +1,6 @@
 # nodeExpressHandlebars
 
-Created by abautista3712 | https://api.github.com/users/abautista3712
+Created by abautista3712 | https://github.com/abautista3712
 
 ![npm](https://img.shields.io/npm/v/fs) ![npm](https://img.shields.io/npm/v/inquirer) ![npm](https://img.shields.io/npm/v/axios)
 
@@ -31,7 +31,7 @@ npm i
 
 ## Usage
 
-Accessible via: https://github.com/abautista3712/nodeExpressHandlebars
+Accessible via: https://mysterious-wildwood-12100.herokuapp.com/
 
 ## License
 
@@ -49,4 +49,4 @@ No tests were explicitly written to run tests for this application.
 
 <img src="https://avatars1.githubusercontent.com/u/58578177?v=4" alt="avatar" style="border-radius: 16px" width="30" />
     
-If you have any questions about this repo, open an issue or contact Abelard Bautista directly at null.
+If you have any questions about this repo, open an issue or contact Abelard Bautista directly at abelardbautista@gmail.com
